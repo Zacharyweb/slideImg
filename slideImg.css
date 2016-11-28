@@ -1,0 +1,70 @@
+blockquote,body,button,dd,dl,dt,fieldset,form,h1,h2,h3,h4,h5,h6,hr,input,legend,li,ol,p,pre,td,textarea,th,ul{margin:0;padding:0}
+body,button,input,select,textarea{font:12px/1.5 "Microsoft YaHei", "微软雅黑", SimSun, "宋体", sans-serif;color: #666;}
+ol,ul{list-style:none}
+a{text-decoration:none}
+fieldset,img{border:0;vertical-align:top;}
+a,input,button,select,textarea{outline:none;text-decoration:none;}
+a,button{cursor:pointer;}
+
+.slideImg-outerwarp {
+	margin:20px auto;
+	border: 1px solid #ccc;
+	position: relative;
+	overflow: hidden;
+}
+
+.slideImg-picswrap ul li {
+	position: absolute;
+	top: 0;
+	left: 100%;
+}
+
+.slideImg-controllerwrap .sliderImg-toprev,
+.slideImg-controllerwrap .sliderImg-tonext {
+	position: absolute;
+	top: 50%;
+	top: 35%\9;
+	-webkit-transform: translateY(-75%);
+	   -moz-transform: translateY(-75%);
+	    -ms-transform: translateY(-75%);
+	     -o-transform: translateY(-75%);
+	        transform: translateY(-75%);
+	width: 30px;
+	height: 60px;
+	color: #fff;
+	font-size: 60px;
+	text-shadow:1px 2px #696,-1px 2px #696;
+	line-height: 60px;
+	text-align: center;
+	cursor: pointer;
+	font-weight: 700;
+	font-family: "SimSun";
+	opacity:0;
+}
+.slideImg-controllerwrap .sliderImg-toprev {
+	left: 5px;
+}
+.slideImg-controllerwrap .sliderImg-tonext {
+	right: 5px;
+}
+.slideImg-controllerwrap{
+	padding-top:10px;
+    text-align:center;
+}
+.slideImg-controllerwrap .sliderImg-dot {
+	width: 12px;
+	height: 12px;
+	border: 1px solid #ccc;
+	display:inline-block;
+	border-radius: 50%;
+	cursor: pointer;
+	text-indent: 200em;
+	overflow: hidden;
+}
+.slideImg-controllerwrap .sliderImg-dot+.sliderImg-dot {
+	margin-left: 10px;
+}
+.slideImg-controllerwrap .dot-active {
+	background-color: orange;
+	border: 1px solid gold;
+}

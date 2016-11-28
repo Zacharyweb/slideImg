@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>slideImgTest</title>
+	<link rel="stylesheet" href="slideImg.css">
+</head>
+<body>
+    <div id="slideImg_test"></div>
+</body>
+</html>
+<script src="slideImg.js"></script>
+<script>
+	var newObj = new slideImg();
+	newObj.data = {
+		picSrc:['img/lb1.jpg','img/lb2.jpg','img/lb3.jpg','img/lb4.jpg','img/lb5.jpg'],
+		picHref:['http://www.baidu.com'],
+		picWidth:590,
+		picHeight:400,
+		playSpeed:1500
+	};
+	newObj.init('slideImg_test');
+	newObj.action();
+</script>
