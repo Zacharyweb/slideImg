@@ -3,7 +3,7 @@
 ## 组件说明
 
 一款源生javaScript编写的左右滑动式切换、用于图片轮播展示的组件。
-[效果展示](http://www.baidu.com)
+[效果展示](http://www.zjresume.com/project/slideImg/demo.html)
 
 ## 浏览器支持
 
